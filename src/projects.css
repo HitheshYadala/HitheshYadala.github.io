@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.relative{
+  position: relative;
+}
+
+.expchar2{
+  position: absolute;
+  float: inline-end;
+  height: 400px;
+  width: 250px;
+  margin-top: 20%;
+  animation:ease-in 15s
+ }
+
+.blue{
+    font-size:25px;
+ color: rgb(93,171,247);
+}
+
+.sub-blue{
+    font-size:12px;
+ color: rgb(93,171,247);
+}
+
+.blue-heading-text{
+  color: rgb(99, 178, 255) !important;
+  font-size:13px;
+  cursor: pointer;
+  font-size: medium;
+ }
+
+
+
+.blue_line {
+    content: "";
+    width: 102px;
+    height: 5px;
+    background: rgb(99, 178, 255);
+    display: block;
+    /* margin-bottom: 50px; */
+    justify-content: flex-end;
+    
+}
+
+.white_line {
+    content: "";
+    width: 6%;
+    height: 5px;
+    background: rgb(99, 178, 255);
+    /* margin-left: 1%; */
+    position: absolute;
+
+    /* display: block; */
+    /* margin-bottom: 50px; */
+
+    
+}
+
+
+
+
+
+section{
+  /* position: relative; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* padding: 80px 100px; */
+  color: #fff;
+}
+
+.containerhead{
+    padding-top: 10%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-sub-head{
+    padding-left: 5%;
+}
+
+.sub-container{
+    /* position: relative; */
+    margin-top: 50px;
+    color:gray !important;
+    /* margin-left: 10px; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+.main-title{
+  font-size: 3em;
+  /* margin-bottom: 50px; */
+   color:gray;
+   padding-top: 10%;
+}
+
+
+.sub-title{
+    font-size: 1.5em;
+    /* margin-bottom: 50px; */
+     color:gray;
+     padding-top: 3%;
+  }
+
+.side-title{
+    font-size: 2em;
+    /* padding-bottom: 50px; */
+     color:gray !important;
+     float: left;
+     text-align:left;
+     /* color: whitesmoke; */
+
+     /* justify-content: flex-start; */
+
+}
+
+.content{
+  position: relative;
+  width: 1150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.content .image{
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.content .image img{
+  z-index: 111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.content .text-box{
+  z-index: 222;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  max-width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transform: translate(-80px, 50px);
+}
+
+.content .text-box h3{
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.media-icons{
+  margin-top: 100px;
+}
+
+.media-icons a{
+  color: #fff;
+  font-size: 2em;
+  /* font-size: ; */
+  margin: 60px;
+}
+
+.section-title{
+  font-size: 3em;
+  margin-bottom: 80px;
+}
+
+.info-title{
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.info{
+  width: 700px;
+  margin-left: 50px;
+}
+
+.media-info{
+  width: 400px;
+  margin-left: 50px;
+}
+
+.media-info li{
+  list-style: none;
+  font-size: 1.4em;
+}
+
+.media-info li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.media-info li:not(:last-child){
+  margin-bottom: 50px;
+}
+
+.media-info li:nth-child(1), .media-info li:nth-child(5){
+  padding-left: 100px;
+}
+
+.media-info li:nth-child(2), .media-info li:nth-child(4){
+  padding-left: 50px;
+}
+
+.sec-03{
+  margin-bottom: 100px;
+}
+
+.sec-01{
+    padding-bottom: 2%;
+}
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+    .sec-01{
+        padding-bottom: 5%;
+    }
+
+    .containerhead{
+        /* position: absolute; */
+        display: flex;
+        padding-bottom: 10%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        /* margin : 0% !important */
+      }
+
+      .main-title{
+        font-size: 3em;
+        text-align:center;
+        width: 100%;
+        /* margin-bottom: 50px; */
+         color:gray;
+         padding-top: 30%;
+
+         /* padding-left: 20%; */
+      }
+
+      .sub-title{
+        font-size: 1.5em;
+        /* margin-bottom: 50px; */
+         color:gray;
+         padding-top: 10%;
+         
+      }
+
+}
