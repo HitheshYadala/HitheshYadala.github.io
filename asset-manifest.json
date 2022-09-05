@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8028ea82.css",
+    "main.js": "/static/js/main.89972a9d.js",
+    "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
+    "static/media/expchar.png": "/static/media/expchar.855977ba61580bd598c9.png",
+    "static/media/resume.pdf": "/static/media/resume.87f229d3d19f2ad9fa87.pdf",
+    "static/media/fly.png": "/static/media/fly.ee9ea99aa8cecfea9b90.png",
+    "static/media/X.jpeg": "/static/media/X.eaf1b84281d5c84ac485.jpeg",
+    "static/media/FJS.jpeg": "/static/media/FJS.dade25a843c85cafbcb8.jpeg",
+    "static/media/AIPLEX LOGO.svg": "/static/media/AIPLEX LOGO.ffa347305f7caf0a94fd028c27a56b53.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/react-2.svg": "/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/python-4.svg": "/static/media/python-4.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "static/media/js.svg": "/static/media/js.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "index.html": "/index.html",
+    "static/media/css-3.svg": "/static/media/css-3.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html-1.svg": "/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "static/media/triangle.cee26124.svg": "/static/media/triangle.cee26124.21fbd2289757aa8de7f1.svg",
+    "main.8028ea82.css.map": "/static/css/main.8028ea82.css.map",
+    "main.89972a9d.js.map": "/static/js/main.89972a9d.js.map",
+    "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8028ea82.css",
+    "static/js/main.89972a9d.js"
+  ]
+}
